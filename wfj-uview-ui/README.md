@@ -1,3 +1,5 @@
+<h3 align="center">此项目是基于 uview-ui@1.8.5 的自维护版，用于修复一些 BUG 和新增、优化组件以满足自己的业务需求，核心以微信小程序为主，其他端并未做过多的测试</h3>
+<h3 align="center">解决报错 viewUI报错:property or method "__HOLDER__"  is not defined</h3>
 <p align="center">
     <img alt="logo" src="https://uviewui.com/common/logo.png" width="120" height="120" style="margin-bottom: 10px;">
 </p>
