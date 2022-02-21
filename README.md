@@ -20,6 +20,10 @@ uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全�
 ## [官方文档：https://v1.uviewui.com](https://v1.uviewui.com)
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> release/1.0
 
 ## 特性
 
@@ -136,3 +140,4 @@ uView文档内容和框架源码全部开源免费，如果您认为uView帮到�
 ## 版权信息
 uView遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将uView应用到您的产品中。
 3.0
+bug
