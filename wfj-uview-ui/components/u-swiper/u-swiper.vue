@@ -14,7 +14,7 @@
 						transform: effect3d && uCurrent != index ? 'scaleY(0.9)' : 'scaleY(1)',
 						margin: effect3d && uCurrent != index ? '0 20rpx' : 0,
 					}">
-					<image class="u-swiper-image" :src="item[name] || item" :mode="imgMode"></image>
+					<image class="u-swiper-image" :src="item[name] || item" :mode="imgNewMode"></image>
 					<view v-if="title && item.title" class="u-swiper-title u-line-1" :style="[{
 							'padding-bottom': titlePaddingBottom
 						}, titleStyle]">
@@ -179,11 +179,15 @@
 			// 就会错乱，因为指示器是依赖于uCurrent的
 			current(n) {
 				this.uCurrent = n;
+			},
+            imgMode(n) {
+				this.imgNewMode = n;
 			}
 		},
 		data() {
 			return {
-				uCurrent: this.current // 当前活跃的swiper-item的index
+				uCurrent: this.current, // 当前活跃的swiper-item的index
+                imgNewMode: this.imgMode
 			};
 		},
 		computed: {
