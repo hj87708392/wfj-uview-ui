@@ -20,7 +20,10 @@ uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全�
 ## [官方文档：https://v1.uviewui.com](https://v1.uviewui.com)
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> release/1.0
 
 ## 特性
 
